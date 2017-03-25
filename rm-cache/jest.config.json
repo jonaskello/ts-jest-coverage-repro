@@ -1,0 +1,11 @@
+{
+  "transform": {
+    ".(ts|tsx)": "<rootDir>/rm-cache/rm-cache-processor.js"
+  },
+  "testMatch": ["<rootDir>/rm-cache/*.test.js"],
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js"
+  ]
+}

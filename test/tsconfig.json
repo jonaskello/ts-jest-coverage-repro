@@ -1,5 +1,4 @@
 {
-  "extends": "../base-tsconfig.json",
   "compilerOptions": {
     // Output options
     "target": "es5",
@@ -9,13 +8,7 @@
     "sourceMap": true,
     "jsx": "react",
     // import & lib options
-    "moduleResolution": "node",
-    "typeRoots": ["../node_modules/@types/"],
-    "lib": ["es5", "dom", "es2015", "es2015.promise", "es2015.iterable", "es2015.symbol"],
-    "baseUrl": ".",
-    "paths": {
-      "*": ["lib/*", "custom_typings/*"]
-    }
+    "moduleResolution": "node"
   },
   "include": [
     "**/*"

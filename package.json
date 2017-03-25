@@ -20,6 +20,7 @@
   },
   "scripts": {
     "tsc": "tsc -p test",
-    "test": "jest --config=test/jest.config.json --no-cache"
+    "test": "jest --config=test/jest.config.json --no-cache",
+    "rm-cache": "jest --config=rm-cache/jest.config.json --no-cache"
   }
 }
