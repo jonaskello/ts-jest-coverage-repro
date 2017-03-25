@@ -3,13 +3,12 @@
     "__TS_CONFIG__": "test/tsconfig.json"
   },
   "collectCoverage": true,
+  "collectCoverageFrom" : ["<rootDir>/test/**/*.{ts,tsx}", "!**/node_modules/**"],
   "transform": {
     ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
   },
   "testResultsProcessor": "<rootDir>/node_modules/ts-jest/coverageprocessor.js",
-  "testMatch": [
-    "<rootDir>/test/**/*.ts{,x}"
-  ],
+  "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
   "moduleFileExtensions": [
     "ts",
     "tsx",
