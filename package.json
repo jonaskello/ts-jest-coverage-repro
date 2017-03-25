@@ -1,0 +1,25 @@
+{
+  "name": "ts-jest-coverage-repro",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^19.2.2",
+    "@types/react": "^0.14.41",
+    "@types/react-dom": "^0.14.18",
+    "@types/react-test-renderer": "^15.4.2",
+    "awesome-typescript-loader": "^3.0.0-beta.17",
+    "jest": "^19.0.2",
+    "react-dom": "^15.3.0",
+    "react-test-renderer": "^15.4.2",
+    "ts-jest": "^19.0.4",
+    "typescript": "^2.2.1"
+  },
+  "scripts": {
+    "tsc:test": "tsc -p test",
+    "test": "jest --config=test/jest.config.json"
+  }
+}
