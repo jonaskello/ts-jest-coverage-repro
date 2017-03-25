@@ -1,3 +1,6 @@
+
+[![build status](https://travis-ci.org/jonaskello/ts-jest-coverage-repro.svg?branch=master)](https://travis-ci.org/jonaskello/ts-jest-coverage-repro)
+
 # How to use
 
 ```
