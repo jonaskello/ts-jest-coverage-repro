@@ -19,7 +19,7 @@
     "typescript": "^2.2.1"
   },
   "scripts": {
-    "tsc:test": "tsc -p test",
+    "tsc": "tsc -p test",
     "test": "jest --config=test/jest.config.json"
   }
 }
